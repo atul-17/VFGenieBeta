@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "114728197341",
+    "firebase_url": "https://libreapp-e158b.firebaseio.com",
+    "project_id": "libreapp-e158b",
+    "storage_bucket": "libreapp-e158b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114728197341:android:fe236ee010f14915a44f34",
+        "android_client_info": {
+          "package_name": "com.libre.alexa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdeestcPW95qmY3QbtEvmFU2m-Tf3mYSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114728197341:android:75f7150777a15277",
+        "android_client_info": {
+          "package_name": "com.libre.ls9"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdeestcPW95qmY3QbtEvmFU2m-Tf3mYSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114728197341:android:67b1585fa3f04742a44f34",
+        "android_client_info": {
+          "package_name": "com.mavid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdeestcPW95qmY3QbtEvmFU2m-Tf3mYSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114728197341-gki1u3efdmcclned2i6hkrdrhmplbqbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

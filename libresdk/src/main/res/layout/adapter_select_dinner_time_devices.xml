@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout -->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="65dp"-->
+<!--    android:layout_marginLeft="20dp"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    android:layout_marginRight="20dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:weightSum="2">-->
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/device_checkbox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="left"-->
+<!--        android:layout_weight="1.6"-->
+<!--        android:button="@drawable/custom_checkbox"-->
+<!--        android:checked="true"-->
+<!--        android:drawableLeft="@android:color/transparent"-->
+<!--        android:drawablePadding="15dp"-->
+<!--        android:gravity="left"-->
+<!--        android:maxLines="3"-->
+<!--        android:text="RiVA"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="16sp" />-->
+<!--</LinearLayout>-->
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="15dp"
+    app:cardCornerRadius="10dp"
+    card_view:elevation="8dp"
+    app:cardElevation="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivDeviceType"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_game_console" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:text="iPhone"
+            android:textColor="@color/grey_200"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeviceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDeviceName"
+            android:layout_marginLeft="60dp"
+            android:text="Mobile Phone"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vodafone_light"
+            android:textSize="14sp" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/sbDinnertimeDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            app:sb_background="@color/grey_200"
+            app:sb_button_color="@color/white"
+            app:sb_checked="true"
+            app:sb_checked_color="@color/cyan_blue"
+            app:sb_checkline_color="@color/grey_200"
+            app:sb_checkline_width="0dp"
+            app:sb_show_indicator="false"
+            app:sb_uncheck_color="@color/grey_200" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

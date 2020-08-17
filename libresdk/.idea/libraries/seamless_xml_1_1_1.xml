@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="seamless-xml-1.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/seamless-xml-1.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

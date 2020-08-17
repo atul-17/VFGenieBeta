@@ -1,0 +1,4 @@
+include ':libresdk:idtmlib'
+include ':libresdk'
+include ':app'
+rootProject.name = "My Application"

@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_100">
+
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dinner Time\nby"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vodafone_font_bold"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:padding="25dp"
+            app:srcCompat="@drawable/ic_vodafone_logo"
+            android:layout_marginTop="65dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <!--    <ProgressBar-->
+    <!--        android:id="@+id/loader"-->
+    <!--        style="?android:attr/progressBarStyleLarge"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:visibility="visible"-->
+    <!--        android:layout_marginTop="100dp"-->
+    <!--        android:layout_centerInParent="true" />-->
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/splashscreen_maintext"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView3"
+        android:visibility="gone"/>
+
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/brand_name"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:padding="40dp"
+            android:background="@color/brand_orange"
+            android:layout_marginBottom="20dp"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/powered_text"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:background="@color/brand_orange"
+            android:layout_marginBottom="40dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+        <ImageView
+            android:src="@mipmap/amazon_alexa_badge"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/app_version"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"
+            android:id="@+id/mAppVersion" />
+
+    </LinearLayout>
+
+</RelativeLayout>
