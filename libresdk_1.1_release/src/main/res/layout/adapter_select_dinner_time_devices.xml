@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    card_view:elevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivDeviceType"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_game_console" />
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeviceName"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+            android:text="iPhone"
+            android:layout_weight="2"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColor="@color/grey_200"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvDeviceType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDeviceName"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/vodafone_light"
+            android:text="Mobile Phone"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <com.suke.widget.SwitchButton
+            android:id="@+id/sbDinnertimeDevice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            app:sb_background="@color/grey_200"
+            app:sb_button_color="@color/white"
+            app:sb_checked="true"
+            app:sb_checked_color="@color/cyan_blue"
+            app:sb_checkline_color="@color/grey_200"
+            app:sb_checkline_width="0dp"
+            app:sb_show_indicator="false"
+            app:sb_uncheck_color="@color/grey_200" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

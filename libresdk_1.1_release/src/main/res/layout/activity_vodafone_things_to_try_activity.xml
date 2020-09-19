@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_100"
+    android:orientation="vertical">
+
+
+    <include layout= "@layout/toolbar_white_bg_amazon"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/llAlexaThingsToTryScreen"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/alexa_blue_white_100px" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:fontFamily="@font/vodafone_light"
+                android:text="alexa"
+                />
+        </LinearLayout>
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/screen2_tv1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/medium_text" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_600"
+            android:textSize="20sp"
+            android:layout_marginTop="25dp"
+            android:text="Things To Try:"
+            android:layout_gravity="left"
+            android:gravity="left"
+            app:fontFamily="@font/vodafone_regular"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="italic"
+            android:layout_marginStart="50dp"
+            app:fontFamily="@font/vodafone_regular"
+            android:text="@string/alexa_start_dinner_time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/grey_400"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:layout_marginTop="25dp"
+            app:fontFamily="@font/vodafone_regular"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:textStyle="italic"
+            android:text="@string/alexa_turn_off_dinner_time"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/grey_400"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            app:fontFamily="@font/vodafone_regular"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/alexa_ask_how_connected_devices"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp"
+            android:background="@color/grey_400"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Sign out of Alexa"
+            android:textAllCaps="false"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="80dp"
+            android:id="@+id/btnSignOutAlexa"
+            android:background="@drawable/red_bg_rounded_corner_button"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_above="@+id/Rl_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="@dimen/top_margin_large"
+        android:background="@color/text_color"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:id="@+id/Rl_sign_in"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/learn_more1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/small_text" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/learn_more2"
+                android:textColor="@color/black"
+                android:textSize="@dimen/small_text" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="@string/learn_more3"
+                android:textColor="@color/brand_orange"
+                android:textSize="@dimen/small_text" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/custom_vdf_animation_view"
+        android:id="@+id/vdfAnimationView"
+        />
+</RelativeLayout>

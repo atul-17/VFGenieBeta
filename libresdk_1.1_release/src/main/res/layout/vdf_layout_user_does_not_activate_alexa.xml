@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_vdf_alert"
+            android:layout_marginTop="60dp"
+            android:id="@+id/ivVdfAlert"
+            android:layout_centerHorizontal="true"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="28sp"
+            android:gravity="left"
+            android:layout_below="@+id/ivVdfAlert"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tvNoWifiConnection"
+            android:layout_centerHorizontal="true"
+            android:text="Unable to authenticate"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_gravity="left"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="25sp"
+            android:layout_below="@+id/tvNoWifiConnection"
+            android:text="Alexa account is critical to fully utilise the Super WiFi Plus features"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Sign in with Alexa"
+            android:textAllCaps="false"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/btnSignWithAlexa"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/red_bg_rounded_corner_button"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

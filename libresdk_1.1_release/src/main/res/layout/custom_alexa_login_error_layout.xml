@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_vdf_alert"
+            android:layout_marginTop="60dp"
+            android:id="@+id/ivVdfAlert"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="28sp"
+            android:gravity="left"
+            android:layout_marginTop="15dp"
+            android:text="Something went wrong"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_gravity="left"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="25sp"
+            android:text="@string/enable_super_wifi_from_alexa_app"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:text="Amazon Alexa App"
+            android:textAllCaps="false"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="100dp"
+            android:id="@+id/btnAmazonAlexaApp"
+            android:background="@drawable/red_bg_rounded_corner_button"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Try Again"
+            android:id="@+id/btnTryAgain"
+            android:textAllCaps="false"
+            android:fontFamily="@font/vodafone_regular"
+            android:background="@drawable/custom_grey_border_button"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

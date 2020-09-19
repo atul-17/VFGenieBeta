@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        >
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_vdf_alert"
+            android:layout_marginTop="60dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="22sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/super_wifi_permission_text_one"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="22sp"
+            android:layout_marginTop="25dp"
+            android:text="@string/ensure_location_is_turned_on"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="22sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/enable_location_service"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="Try Again"
+            android:id="@+id/btnTryAgain"
+            android:textAllCaps="false"
+            android:fontFamily="@font/vodafone_regular"
+            android:background="@drawable/custom_grey_border_button"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:fontFamily="@font/vodafone_regular"
+            android:id="@+id/btnGotoSettings"
+            android:textAllCaps="false"
+            android:text="Go to Settings"
+            android:background="@drawable/rounded_red_button_enabled"
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

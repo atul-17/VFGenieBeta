@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_vdf_alert"
+            android:layout_marginTop="60dp"
+            android:id="@+id/ivVdfAlert"
+            android:layout_centerHorizontal="true"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="24sp"
+            android:layout_below="@+id/ivVdfAlert"
+            android:layout_marginTop="15dp"
+            android:id="@+id/tvNoWifiConnection"
+            android:layout_centerHorizontal="true"
+            android:text="Super WiFi Plus Not Found !"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/grey_600"
+            android:layout_gravity="left"
+            android:fontFamily="@font/vodafone_regular"
+            android:textSize="22sp"
+            android:layout_below="@+id/tvNoWifiConnection"
+            android:text="Ensure the device is within range from your router and powered on."
+            />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_marginRight="45dp"
+            android:layout_marginLeft="45dp"
+            android:layout_height="50dp"
+            android:textSize="18sp"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/black"
+            android:text="Try Again"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/btnTryAgain"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/custom_grey_border_button"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

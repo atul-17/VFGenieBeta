@@ -11,12 +11,13 @@ import android.view.Window
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.AppCompatButton
 import androidx.appcompat.widget.AppCompatTextView
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.libre.alexa.activities.newFlow.VodafoneLoginRegisterWebViewActivity
 
 
 class MainActivity : AppCompatActivity() {
 
-    private var customTwoAlertDialog: Dialog? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,6 +29,5 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
-
 
 }

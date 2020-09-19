@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_vdf_doc"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/brand_red"
+            android:text="Super WiFi Plus"
+            android:textSize="22sp"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Terms &amp; Conditions"
+            android:textSize="28sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/in_order_to_use"
+            android:textSize="18sp"
+            android:id="@+id/tvShowTAndC"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/vodafone_regular"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rounded_red_button_enabled"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="100dp"
+        android:textSize="22sp"
+        android:id="@+id/btnIAgree"
+        android:fontFamily="@font/vodafone_light"
+        android:textColor="@color/white"
+        android:text="I agree"
+        android:textAllCaps="false"
+        />
+
+</RelativeLayout>

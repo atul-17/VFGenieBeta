@@ -1,4 +1,4 @@
-include ':libresdk:idtmlib'
-include ':libresdk'
+include ':libresdk_1.1_release:idtmlib'
+include ':libresdk_1.1_release'
 include ':app'
 rootProject.name = "My Application"

@@ -11,8 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/libresdk" />
-            <option value="$PROJECT_DIR$/libresdk/idtmlib" />
+            <option value="$PROJECT_DIR$/libresdk_1.1_release" />
+            <option value="$PROJECT_DIR$/libresdk_1.1_release/idtmlib" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
